@@ -8,12 +8,12 @@ function App() {
   return (
     <>
       <Sidebar />
-      <div className=' grid grid-cols-2'>
+      <div className=' flex flex-row'>
         <div className=''>
           <Hero />
           <OurTask />
         </div>
-        <div className=' relative ml-80 overflow-hidden'>
+        <div className=' border-l-2 ml-16 border-gray-300 relative   overflow-hidden'>
           <Status />
 
         </div>

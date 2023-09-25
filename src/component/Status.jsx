@@ -7,8 +7,9 @@ function Status() {
 
   return (
 
-        <div className="   w-96">
-          <div className="border-dashed mt-20 mr-20 rounded-lg">
+        <div className="  ml-8 w-80 h-screen">
+
+          <div className="border-dashed mt-20  rounded-lg">
           <Calendar onChange={onChange} value={value} />
 
           </div>
